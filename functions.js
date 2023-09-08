@@ -45,3 +45,11 @@ const firstNames = fullNames.map(function(name){
 });
 
  Using the .map to create an array with only the first names*/
+
+ /*
+ const greet = (person) => {
+    return (`Hey ${person}!`);
+}
+const greet = person => `"Hey ${person}!"`;
+
+ This is an example of using the arrow function and using implicit return*/
