@@ -65,3 +65,9 @@ fucntion validUserNames(arr){
  const validUserNames = usernames => usernames.filter(usr => usr.length < 10);
 
 Using the filter function to create a new array of usernames that are less than 10 characters*/
+
+/*
+
+const allEvens = numbers => numbers.every((nums) => nums % 2 === 0);
+
+Using the every function to sort thorugh an array to see if all numbers are even*/
