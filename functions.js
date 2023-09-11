@@ -53,3 +53,15 @@ const firstNames = fullNames.map(function(name){
 const greet = person => `"Hey ${person}!"`;
 
  This is an example of using the arrow function and using implicit return*/
+
+/*
+fucntion validUserNames(arr){
+    const filteredArr = arr.filter(function (name){
+        return name.length < 10;
+    });
+    return filteredArr;
+}
+
+ const validUserNames = usernames => usernames.filter(usr => usr.length < 10);
+
+Using the filter function to create a new array of usernames that are less than 10 characters*/
